@@ -5,9 +5,181 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.thebikestoragecompany.co.uk/wp-content/uploads/2019/04/Vertical-Bike-Rack-4.png");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 375px;
+  height: 800px;
+}
+
+.bike {
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.wrapper {	
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px 20px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+
+  .form-signin-heading, .checkbox {
+	  margin-bottom: 30px;
+	} 
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	} 
+
+.volunteerpanel {
+  padding: 20px 20px 20px;
+}
+
+.input {
+  margin: 10px 10px 10px 10px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 37px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Resize the wrap to see the search bar change!
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.select {
+  margin-bottom: 20px;
+}
+
+.login-input {
+  margin-bottom: 20px;
+}
+
+.volunteer-available-bikes {
+  font-size: 20px;
+}
+
+.rentings-residents {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.residents-wrapper {
+  max-width: 330px;
+  padding: 15px 55px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: auto;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+
+.rentings-history {
+  width: 300px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: small;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.clock {
+  width: 256px;
+  height: 116px;
+}
+
+.rentings-wrapper {
+  max-width: 330px;
+  padding: 15px 22px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: auto;
+  border: 1px solid rgba(0,0,0,0.1);
 }
